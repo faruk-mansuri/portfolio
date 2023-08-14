@@ -1,0 +1,10 @@
+export { default as Navbar } from './Navbar';
+export { default as SmallSidebar } from './SmallSidebar';
+export { default as SocialIcons } from './SocialIcons';
+export { default as Hero } from './Hero';
+export { default as About } from './About';
+export { default as Skills } from './Skills';
+export { default as HomeProjects } from './HomeProjects';
+export { default as Connect } from './Connect';
+export { default as Timeline } from './Timeline';
+export { default as Footer } from './Footer';
