@@ -3,6 +3,7 @@ import project2 from '../assets/images/project-2.png';
 import project3 from '../assets/images/project-3.png';
 import project4 from '../assets/images/project-4.png';
 import project5 from '../assets/images/project-5.png';
+import project6 from '../assets/images/project-6.png';
 
 export const projects = [
   {
@@ -54,7 +55,7 @@ export const projects = [
     id: 'project-6',
     title: 'Movie DB',
     desc: 'movie search application',
-    url: project5,
+    url: project6,
     info: 'Movies DB, where user can search for movie and api returns movie then user can see those movies and if query does return anything the of course user will see that error',
     sourceCode: 'https://github.com/faruk-mansuri/react-hacker-news-project-4',
     liveProject: 'https://react-moviedb-project.netlify.app/',
