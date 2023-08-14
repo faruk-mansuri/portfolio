@@ -50,4 +50,13 @@ export const projects = [
     sourceCode: 'https://github.com/faruk-mansuri/react-hacker-news-project-4',
     liveProject: 'https://react-hacker-new-project-4.netlify.app/',
   },
+  {
+    id: 'project-6',
+    title: 'Movie DB',
+    desc: 'movie search application',
+    url: project5,
+    info: 'Movies DB, where user can search for movie and api returns movie then user can see those movies and if query does return anything the of course user will see that error',
+    sourceCode: 'https://github.com/faruk-mansuri/react-hacker-news-project-4',
+    liveProject: 'https://react-moviedb-project.netlify.app/',
+  },
 ];
