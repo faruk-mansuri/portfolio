@@ -118,7 +118,7 @@ const Wrapper = styled.section`
   }
   .projects-center {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     gap: 2rem;
   }
   img {
