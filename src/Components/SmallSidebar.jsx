@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
-import { FaTimes } from 'react-icons/Fa';
+import { FaTimes } from 'react-icons/fa';
 import logo from '../assets/images/logo.svg';
 import SocialIcons from './SocialIcons';
 

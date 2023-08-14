@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import logo from '../assets/images/logo.svg';
-import { FaBars } from 'react-icons/Fa';
+import { FaBars } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
