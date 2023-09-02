@@ -46,27 +46,21 @@ const Projects = () => {
                   <p>{info}</p>
                   <div className='project-footer'>
                     <div className='footer-item'>
-                      <span>
-                        <FaReact />
-                      </span>
                       <Link
                         to={sourceCode}
                         target='_blank'
                         className='footer-text'
                       >
-                        live
+                        <FaReact />
                       </Link>
                     </div>
                     <div className='footer-item'>
-                      <span>
-                        <AiFillGithub />
-                      </span>
                       <Link
                         to={sourceCode}
                         target='_blank'
                         className='footer-text'
                       >
-                        source code
+                        <AiFillGithub />
                       </Link>
                     </div>
                   </div>
@@ -124,11 +118,12 @@ const Wrapper = styled.section`
     padding: 2rem 1.5rem;
   }
 
+  .project-footer {
+    display: flex;
+    gap: 1rem;
+  }
   .footer-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 0.375;
-    font-size: 1rem;
+    font-size: 1.75rem;
   }
   .project-footer a {
     color: var(--clr-primary-5);
