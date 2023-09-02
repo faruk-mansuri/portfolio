@@ -57,7 +57,7 @@ export const projects = [
     desc: 'movie search application',
     url: project6,
     info: 'Movies DB, where user can search for movie and api returns movie then user can see those movies and if query does return anything the of course user will see that error',
-    sourceCode: 'https://github.com/faruk-mansuri/react-hacker-news-project-4',
+    sourceCode: 'https://github.com/faruk-mansuri/movieDB',
     liveProject: 'https://react-moviedb-project.netlify.app/',
   },
 ];
