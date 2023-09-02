@@ -9,10 +9,10 @@ const About = () => {
       </div>
 
       <p>
-        Hello, I am Faruk Mansuri and I am a web developer. I live and study in
-        pune. I spend most of my day, experimenting with HTML, CSS, JavaScript,
-        NodeJS and ReactJS . I enjoy coding and the challenge of learning
-        something new everyday.
+        Hello, I am Faruk Mansuri and I am a web developer and App Developer. I
+        live and study in pune. I spend most of my day, experimenting with HTML,
+        CSS, JavaScript, NodeJS, ReactJS and React Native. I enjoy coding and
+        the challenge of learning something new everyday.
       </p>
     </Wrapper>
   );

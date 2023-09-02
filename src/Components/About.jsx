@@ -19,12 +19,12 @@ const About = () => {
             <div className='underline'></div>
           </div>
           <p>
-            I'm a friendly and dedicated React and full-stack developer with
-            over 2.5 years of immersive learning experience. My journey has
-            equipped me with advanced JavaScript skills and a deep understanding
-            of front-end and back-end technologies. I take pride in creating
-            user-centric applications that seamlessly blend innovation and
-            functionality
+            I'm a friendly and dedicated React, React Native and full-stack
+            developer with over 3 years of immersive learning experience. My
+            journey has equipped me with advanced JavaScript skills and a deep
+            understanding of front-end and back-end technologies. I take pride
+            in creating user-centric applications that seamlessly blend
+            innovation and functionality
           </p>
 
           <Link className='btn' to='about'>

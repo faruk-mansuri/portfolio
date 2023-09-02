@@ -1,9 +1,9 @@
 import { styled } from 'styled-components';
 import { AiFillHome, AiFillGithub } from 'react-icons/ai';
+import { FaReact } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { projects } from '../utils/latestProjects';
 
-import img from '../assets/images/project-1.png';
 const Projects = () => {
   return (
     <Wrapper>
@@ -30,7 +30,9 @@ const Projects = () => {
             return (
               <article key={id} className='single-project'>
                 <div className='project-container'>
-                  <img src={img} alt='img' />
+                  <Link>
+                    <img src={img} alt='img' />
+                  </Link>
                   <Link
                     to={liveProject}
                     target='_blank'
@@ -43,12 +45,30 @@ const Projects = () => {
                   <h4>{title}</h4>
                   <p>{info}</p>
                   <div className='project-footer'>
-                    <span>
-                      <AiFillGithub />
-                    </span>
-                    <Link to={sourceCode} target='_blank'>
-                      source code
-                    </Link>
+                    <div className='footer-item'>
+                      <span>
+                        <FaReact />
+                      </span>
+                      <Link
+                        to={sourceCode}
+                        target='_blank'
+                        className='footer-text'
+                      >
+                        live
+                      </Link>
+                    </div>
+                    <div className='footer-item'>
+                      <span>
+                        <AiFillGithub />
+                      </span>
+                      <Link
+                        to={sourceCode}
+                        target='_blank'
+                        className='footer-text'
+                      >
+                        source code
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </article>
@@ -103,9 +123,12 @@ const Wrapper = styled.section`
   .project-details {
     padding: 2rem 1.5rem;
   }
-  .project-footer {
+
+  .footer-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 0.375;
+    font-size: 1rem;
   }
   .project-footer a {
     color: var(--clr-primary-5);
