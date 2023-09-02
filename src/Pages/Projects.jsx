@@ -20,7 +20,6 @@ const Projects = () => {
             const {
               id,
               title,
-              desc,
               url: img,
               info,
               sourceCode,
@@ -47,7 +46,7 @@ const Projects = () => {
                   <div className='project-footer'>
                     <div className='footer-item'>
                       <Link
-                        to={sourceCode}
+                        to={liveProject}
                         target='_blank'
                         className='footer-text'
                       >
