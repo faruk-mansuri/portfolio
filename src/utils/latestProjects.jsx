@@ -68,6 +68,6 @@ export const projects = [
     url: project7,
     info: 'E-commerce furniture store where users can log in, register, add items to their cart, toggle themes, view order history, and more. Utilizing the latest tools such as React Query, React Router DOM 6.14, Redux Toolkit, and more. The site offers a fast and efficient product filtering system, along with authentication and authorization functionalities.',
     sourceCode: 'https://github.com/faruk-mansuri/ReactJS-E-Commerce',
-    liveProject: 'https://kaleidoscopic-scone-122f19.netlify.app/',
+    liveProject: 'https://reactjs-e-commerce-app.netlify.app/',
   },
 ];
