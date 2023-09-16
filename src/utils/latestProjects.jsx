@@ -4,6 +4,7 @@ import project3 from '../assets/images/project-3.png';
 import project4 from '../assets/images/project-4.png';
 import project5 from '../assets/images/project-5.png';
 import project6 from '../assets/images/project-6.png';
+import project7 from '../assets/images/project-7.png';
 
 export const projects = [
   {
@@ -59,5 +60,14 @@ export const projects = [
     info: 'Movies DB, where user can search for movie and api returns movie then user can see those movies and if query does return anything the of course user will see that error',
     sourceCode: 'https://github.com/faruk-mansuri/movieDB',
     liveProject: 'https://react-moviedb-project.netlify.app/',
+  },
+  {
+    id: 'project-7',
+    title: 'ReactJS E-Commerce Application',
+    desc: 'E-Commerce Furniture Store',
+    url: project7,
+    info: 'E-commerce furniture store where users can log in, register, add items to their cart, toggle themes, view order history, and more. Utilizing the latest tools such as React Query, React Router DOM 6.14, Redux Toolkit, and more. The site offers a fast and efficient product filtering system, along with authentication and authorization functionalities.',
+    sourceCode: 'https://github.com/faruk-mansuri/ReactJS-E-Commerce',
+    liveProject: 'https://kaleidoscopic-scone-122f19.netlify.app/',
   },
 ];
