@@ -10,7 +10,7 @@ const Hero = () => {
           <article className='hero-info'>
             <div className='underline'></div>
             <h1>i'm faruk</h1>
-            <h4>React and full stack developer</h4>
+            <h4>React, React Native and full stack developer</h4>
 
             <Link to='contact' className='btn hero-btn'>
               hire me
