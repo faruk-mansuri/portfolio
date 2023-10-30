@@ -29,9 +29,8 @@ const Projects = () => {
             return (
               <article key={id} className='single-project'>
                 <div className='project-container'>
-                  <Link>
-                    <img src={img} alt='img' />
-                  </Link>
+                  <img src={img} alt='img' />
+
                   <Link
                     to={liveProject}
                     target='_blank'
