@@ -2,12 +2,13 @@ import {
   BiLogoReact,
   BiLogoJavascript,
   BiLogoRedux,
-  BiLogoFigma,
   BiLogoNodejs,
+  BiLogoTailwindCss,
 } from 'react-icons/bi';
 import { AiOutlineHtml5, AiFillSetting, AiFillGithub } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import { BsCodeSlash, BsServer, BsFileCodeFill } from 'react-icons/bs';
+import { TbBrandNextjs } from 'react-icons/tb';
 
 export const skills = [
   {
@@ -31,19 +32,22 @@ export const skills = [
         title: 'React 18',
       },
       {
+        icon: <TbBrandNextjs />,
+        title: 'Next JS',
+      },
+      {
         title: 'React-Query',
       },
-
       {
         icon: <BiLogoRedux />,
-        title: 'Redux',
+        title: 'Redux toolkit',
+      },
+      {
+        icon: <BiLogoTailwindCss />,
+        title: 'Tailwind css',
       },
       {
         title: 'Styled Components',
-      },
-      {
-        icon: <BiLogoFigma />,
-        title: 'Figma',
       },
     ],
   },

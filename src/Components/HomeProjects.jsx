@@ -18,6 +18,7 @@ const HomeProjects = () => {
 
       <div className='section-center projects-center'>
         {projects.map((project) => {
+          if (!project.featuredProject) return;
           const { id, title, desc, url } = project;
           return (
             <Link key={id} to='projects' className={id}>
