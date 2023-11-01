@@ -13,37 +13,37 @@ import { TbBrandNextjs } from 'react-icons/tb';
 export const skills = [
   {
     title: 'front end',
-    icon: <BsCodeSlash />,
+    Icon: BsCodeSlash,
     languages: [
       {
-        icon: <AiOutlineHtml5 />,
+        Icon: AiOutlineHtml5,
         title: 'HTML',
       },
       {
-        icon: <DiCss3 />,
+        Icon: DiCss3,
         title: 'CSS',
       },
       {
-        icon: <BiLogoJavascript />,
+        Icon: BiLogoJavascript,
         title: 'JavaScript',
       },
       {
-        icon: <BiLogoReact />,
+        Icon: BiLogoReact,
         title: 'React 18',
       },
       {
-        icon: <TbBrandNextjs />,
+        Icon: TbBrandNextjs,
         title: 'Next JS',
       },
       {
         title: 'React-Query',
       },
       {
-        icon: <BiLogoRedux />,
+        Icon: BiLogoRedux,
         title: 'Redux toolkit',
       },
       {
-        icon: <BiLogoTailwindCss />,
+        Icon: BiLogoTailwindCss,
         title: 'Tailwind css',
       },
       {
@@ -53,10 +53,10 @@ export const skills = [
   },
   {
     title: 'back end',
-    icon: <BsServer />,
+    Icon: BsServer,
     languages: [
       {
-        icon: <BiLogoNodejs />,
+        Icon: BiLogoNodejs,
         title: 'nodeJS',
       },
       {
@@ -75,14 +75,14 @@ export const skills = [
   },
   {
     title: 'other',
-    icon: <AiFillSetting />,
+    Icon: AiFillSetting,
     languages: [
       {
-        icon: <BsFileCodeFill />,
+        Icon: BsFileCodeFill,
         title: 'VS Code',
       },
       {
-        icon: <AiFillGithub />,
+        Icon: AiFillGithub,
         title: 'Github',
       },
       {

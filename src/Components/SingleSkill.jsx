@@ -1,19 +1,25 @@
 import { styled } from 'styled-components';
+import { BsCodeSlash, BsServer, BsFileCodeFill } from 'react-icons/bs';
 
-const SingleSkill = ({ title, icon, languages }) => {
+const SingleSkill = ({ title, Icon, languages }) => {
+  console.log(Icon);
   return (
     <Wrapper>
-      <span className='service-icon'>{icon}</span>
+      <span className='service-icon'>
+        <Icon />
+      </span>
       <h3>{title}</h3>
       <div className='underline'></div>
 
       <div className='skill'>
         {languages.map((skill, index) => {
-          const { icon, title } = skill;
+          const { Icon, title } = skill;
+
           return (
             <div key={index} className='info'>
+              <span className='service-icon'>{/* <Icon /> */}</span>
               <p className='skill-info'>
-                <span className='skill-icon'>{icon}</span>
+                {Icon && <Icon className='skill-icon' />}
                 {title}
               </p>
             </div>
@@ -33,20 +39,15 @@ const Wrapper = styled.article`
   text-align: center;
   transition: var(--transition);
   font-weight: bold;
+  box-shadow: var(--light-shadow);
 
   &:hover {
-    background: var(--clr-primary-5);
-    color: var(--clr-white);
-    .underline {
-      background: var(--clr-white);
-    }
-    .skill .skill-info {
-      color: var(--clr-white);
-    }
+    box-shadow: var(--dark-shadow);
   }
   .service-icon {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    color: var(--clr-grey-3);
   }
   .underline {
     width: 3rem;
@@ -63,11 +64,28 @@ const Wrapper = styled.article`
     font-size: 1rem;
 
     .skill-icon {
-      display: inline-block;
-      margin-right: 0.75rem;
+      font-size: 1.5rem;
+      color: white;
     }
     .skill-info {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
       color: var(--clr-grey-1);
+      margin: 0 2rem;
+      margin-top: 1rem;
+      border-radius: var(--border-radius);
+      padding: 0.5rem;
+      background-color: var(--clr-primary-5);
+      box-shadow: var(--light-shadow);
+      transition: var(--transition);
+
+      &:hover {
+        transform: scale(1.02);
+        background: var(--clr-primary-7);
+        box-shadow: var(--dark-shadow);
+        color: var(--clr-white);
+      }
     }
   }
 `;
