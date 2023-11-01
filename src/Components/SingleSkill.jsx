@@ -41,13 +41,16 @@ const Wrapper = styled.article`
   font-weight: bold;
   box-shadow: var(--light-shadow);
 
+  h3 {
+    color: var(--clr-grey-3);
+  }
   &:hover {
     box-shadow: var(--dark-shadow);
   }
   .service-icon {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: var(--clr-grey-3);
+    color: var(--clr-grey-2);
   }
   .underline {
     width: 3rem;
