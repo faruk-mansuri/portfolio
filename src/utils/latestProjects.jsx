@@ -7,6 +7,7 @@ import project6 from '../assets/images/project-6.png';
 import project7 from '../assets/images/project-7.png';
 import project8 from '../assets/images/project-8.png';
 import project9 from '../assets/images/project-9.png';
+import project10 from '../assets/images/project-10.png';
 
 export const projects = [
   {
@@ -93,5 +94,15 @@ export const projects = [
     info: 'E-commerce furniture store where users can log in, register, add items to their cart, toggle themes, view order history, and more. Utilizing the latest tools such as React Query, React Router DOM 6.14, Redux Toolkit, and more. The site offers a fast and efficient product filtering system, along with authentication and authorization functionalities.',
     sourceCode: 'https://github.com/faruk-mansuri/ReactJS-E-Commerce',
     liveProject: 'https://reactjs-e-commerce-app.netlify.app/',
+  },
+  {
+    id: 'project-10',
+    title: 'GPTGenius',
+    desc: 'GPTGenius: Your AI language companion. Powered by OpenAI, it enhances your conversations, content creation, and more!',
+    featuredProject: true,
+    url: project10,
+    info: 'A "Threads Clone" project is inspired by the popular social media platform "Threads" and aims to replicate some of its core features, allowing users to post short messages, follow other users, and engage in real-time discussions using chat feature and many more',
+    sourceCode: 'https://github.com/faruk-mansuri/GPTGenius',
+    liveProject: 'https://gpt-genius-one.vercel.app/',
   },
 ];
