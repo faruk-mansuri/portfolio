@@ -8,6 +8,7 @@ import project7 from '../assets/images/project-7.png';
 import project8 from '../assets/images/project-8.png';
 import project9 from '../assets/images/project-9.png';
 import project10 from '../assets/images/project-10.png';
+import project11 from '../assets/images/project-11.png';
 
 export const projects = [
   {
@@ -26,7 +27,7 @@ export const projects = [
     desc: 'User Verification',
     url: project2,
     info: `Elevate User Security with Next.js! Introducing my new project that offers seamless registration, login, and password reset with email verification. It's time to redefine how users experience your web app! 🔐🌟`,
-    sourceCode: 'https://github.com/faruk-mansuri/auth-next-js',
+    sourceCode: 'https://github.com/faruk-mansuri/next-js-auth-setup',
     liveProject: 'https://auth-next-js.netlify.app',
   },
   {
@@ -101,8 +102,16 @@ export const projects = [
     desc: 'GPTGenius: Your AI language companion. Powered by OpenAI, it enhances your conversations, content creation, and more!',
     featuredProject: true,
     url: project10,
-    info: 'A "Threads Clone" project is inspired by the popular social media platform "Threads" and aims to replicate some of its core features, allowing users to post short messages, follow other users, and engage in real-time discussions using chat feature and many more',
-    sourceCode: 'https://github.com/faruk-mansuri/GPTGenius',
+    info: `GPTGenius a full stack nextJS web application that integrates OpenAI's 3.5 GPT model. Clerk for authentication and user management. Implemented features including a chatbot for interactive conversations and dynamic tour generation using openAI
+.`,
     liveProject: 'https://gpt-genius-one.vercel.app/',
+  },
+  {
+    id: 'project-11',
+    title: 'Promptopia',
+    desc: 'Promptopia is an open-source creative prompting tool that allows users to discover, create, and share prompts.',
+    url: project11,
+    info: `Introducing Promptopia, my latest Next.js project! 🚀 Promptopia is an open-source creative prompting tool that allows users to discover, create, and share prompts. It includes user authentication with email verification and leverages the latest Next.js features, such as middleware. Check it out and get inspired today!`,
+    liveProject: 'https://next-js-promptopia.netlify.app/login',
   },
 ];
