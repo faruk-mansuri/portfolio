@@ -9,6 +9,7 @@ import project8 from '../assets/images/project-8.png';
 import project9 from '../assets/images/project-9.png';
 import project10 from '../assets/images/project-10.png';
 import project11 from '../assets/images/project-11.png';
+import project12 from '../assets/images/project-12.png';
 
 export const projects = [
   {
@@ -104,6 +105,7 @@ export const projects = [
     url: project10,
     info: `GPTGenius a full stack nextJS web application that integrates OpenAI's 3.5 GPT model. Clerk for authentication and user management. Implemented features including a chatbot for interactive conversations and dynamic tour generation using openAI
 .`,
+    sourceCode: 'https://github.com/faruk-mansuri/GPTGenius',
     liveProject: 'https://gpt-genius-one.vercel.app/',
   },
   {
@@ -112,6 +114,17 @@ export const projects = [
     desc: 'Promptopia is an open-source creative prompting tool that allows users to discover, create, and share prompts.',
     url: project11,
     info: `Introducing Promptopia, my latest Next.js project! 🚀 Promptopia is an open-source creative prompting tool that allows users to discover, create, and share prompts. It includes user authentication with email verification and leverages the latest Next.js features, such as middleware. Check it out and get inspired today!`,
+    sourceCode: 'https://github.com/faruk-mansuri/next-js-promptopia',
     liveProject: 'https://next-js-promptopia.netlify.app/login',
+  },
+  {
+    id: 'project-12',
+    title: 'Genius',
+    desc: 'Genius is an AI Platform with five AI tools. Powered by the Next.js 13 App Router, our platform will not only be efficient but also user-centric.',
+    featuredProject: true,
+    url: project12,
+    info: `"Genius" is more than just a platform; it's your ultimate creative companion! 🎨💬 Imagine a space where you can chat with AI, effortlessly create stunning images, convert prompts to music and videos, or can ask AI to generate code for you. `,
+    sourceCode: 'https://github.com/faruk-mansuri/genius',
+    liveProject: 'https://genius-nu.vercel.app/',
   },
 ];
