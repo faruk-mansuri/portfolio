@@ -2,17 +2,47 @@ import { styled } from 'styled-components';
 import { AiFillHome, AiFillGithub } from 'react-icons/ai';
 import { FaReact } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { projects } from '../utils/latestProjects';
+import { projects as projectList } from '../utils/latestProjects';
+import { PROJECT_TYPES, PROJECT_TYPES_VARIABLES } from '../utils/constant';
+import { useEffect, useState } from 'react';
 
 const Projects = () => {
+  const [type, setType] = useState(PROJECT_TYPES_VARIABLES.ALL);
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    setProjects(() => {
+      if (type === 'ALL') return projectList;
+      return projectList.filter((project) => project.type === type);
+    });
+  }, [type]);
+
   return (
     <Wrapper>
-      <header className='project-hero'>
+      <header className='project-hero '>
         <div className='section-title'>
           <h1>My Projects</h1>
           <div className='underline'></div>
         </div>
       </header>
+
+      <div className='btn-container'>
+        {PROJECT_TYPES.map((projectType) => {
+          return (
+            <button
+              key={projectType.name}
+              className={`project-btn ${
+                projectType.type === type
+                  ? 'project-btn-active'
+                  : 'project-btn-inactive'
+              }`}
+              onClick={() => setType(projectType.type)}
+            >
+              {projectType.type}
+            </button>
+          );
+        })}
+      </div>
 
       <div className='section'>
         <div className='section-center projects-center'>
@@ -140,6 +170,28 @@ const Wrapper = styled.section`
   img {
     height: 15rem;
     object-fit: cover;
+  }
+  .btn-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .project-btn {
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.375rem;
+    transition: var(--transition);
+    letter-spacing: 2px;
+  }
+  .project-btn:hover {
+    background-color: var(--clr-primary-5);
+  }
+  .project-btn-active {
+    background-color: var(--clr-primary-5);
+  }
+  .project-btn-inactive {
+    background-color: var(--clr-primary-7);
   }
 `;
 export default Projects;

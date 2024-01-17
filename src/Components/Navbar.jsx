@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 const Navbar = ({ toggleSidebar }) => {
   const [size, setSize] = useState(window.pageYOffset);
-  console.log('hi');
+
   useEffect(() => {
     window.addEventListener('scroll', () => {
       setSize(window.pageYOffset);

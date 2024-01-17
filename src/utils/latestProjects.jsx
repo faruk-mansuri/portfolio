@@ -10,6 +10,7 @@ import project9 from '../assets/images/project-9.png';
 import project10 from '../assets/images/project-10.png';
 import project11 from '../assets/images/project-11.png';
 import project12 from '../assets/images/project-12.png';
+import { PROJECT_TYPES_VARIABLES } from './constant';
 
 export const projects = [
   {
@@ -21,6 +22,7 @@ export const projects = [
     info: 'A "Threads Clone" project is inspired by the popular social media platform "Threads" and aims to replicate some of its core features, allowing users to post short messages, follow other users, and engage in real-time discussions using chat feature and many more',
     sourceCode: 'https://github.com/faruk-mansuri/mern-threads-clone',
     liveProject: 'https://threads-clone-app.onrender.com',
+    type: PROJECT_TYPES_VARIABLES.MERN_STACK,
   },
   {
     id: 'project-2',
@@ -30,6 +32,7 @@ export const projects = [
     info: `Elevate User Security with Next.js! Introducing my new project that offers seamless registration, login, and password reset with email verification. It's time to redefine how users experience your web app! 🔐🌟`,
     sourceCode: 'https://github.com/faruk-mansuri/next-js-auth-setup',
     liveProject: 'https://auth-next-js.netlify.app',
+    type: PROJECT_TYPES_VARIABLES.NEXTJS,
   },
   {
     id: 'project-3',
@@ -37,9 +40,10 @@ export const projects = [
     desc: 'search gallery',
     featuredProject: true,
     url: project3,
-    info: 'Unsplash image application that enables users to search for images using the Unsplash API. The app also includes a dark mode option for theme management. For enhanced security, I employed environment variables for sensitive information. To optimize data retrieval and caching, I utilized React Query and its developer tools for efficient debugging and monitoring.',
+    info: 'Unsplash image application that enables users to search for images using the Unsplash API. The app also includes a dark mode option for theme management. To optimize data retrieval and caching, I utilized React Query and its developer tools for efficient debugging and monitoring.',
     sourceCode: 'https://github.com/faruk-mansuri/vite-images',
     liveProject: 'https://unsplash-images-project-v2.netlify.app/',
+    type: PROJECT_TYPES_VARIABLES.REACTJS,
   },
   {
     id: 'project-4',
@@ -47,9 +51,10 @@ export const projects = [
     desc: 'furniture e-commerce website',
     featuredProject: true,
     url: project4,
-    info: 'E-commerce project focusing on an online furniture store. The project utilizes Auth0 for user authentication. I implemented an advanced filter system, allowing users to conveniently sort products by various criteria such as name, company, color, and price range. The user interface features a column and row layout, enhancing the browsing experience. Additionally, I integrated a sorting feature to help users find products more easily. For secure payment processing, used the Stripe API.',
+    info: 'E-commerce project focusing on an online furniture store. The project utilizes Auth0 for user authentication. I implemented an advanced filter system, allowing users to conveniently sort products by various criteria such as name, company, color, and price range. The user interface features a column and row layout, enhancing the browsing experience.',
     sourceCode: 'https://github.com/faruk-mansuri/react-comfy-sloth',
     liveProject: 'https://react-comfy-sloth-v1.netlify.app/',
+    type: PROJECT_TYPES_VARIABLES.REACTJS,
   },
   {
     id: 'project-5',
@@ -59,6 +64,7 @@ export const projects = [
     info: 'React.js project that enables visitors to search for GitHub users. The project displays various information about the users, including the number of repositories they have and a list of their followers. I integrated Auth0 for authentication and utilized the Axios library for fetching data. Additionally, I incorporated a chat feature to provide detailed information about the user.',
     sourceCode: 'https://github.com/faruk-mansuri/rect-github-users',
     liveProject: 'https://react-github-user-1.netlify.app/',
+    type: PROJECT_TYPES_VARIABLES.REACTJS,
   },
   {
     id: 'project-6',
@@ -66,9 +72,10 @@ export const projects = [
     desc: 'job tracking app',
     featuredProject: true,
     url: project6,
-    info: 'A job tracking app as my first MERN stack project. This application empowers users to perform CRUD operations by registering, creating, editing, deleting, and searching for jobs. I employed Express Validators to validate user inputs. For heightened security, I implemented JSON Web Tokens (JWT). Furthermore, I optimized data retrieval and caching through React Query, its developer tools for effective debugging and monitoring. In this project, I also utilized the latest features of react-router-dom, such as actions and loaders',
+    info: 'A job tracking app as my first MERN stack project. This application empowers users to perform CRUD operations by registering, creating, editing, deleting, and searching for jobs. I employed Express Validators to validate user inputs. For heightened security, I implemented JSON Web Tokens (JWT). Furthermore, I optimized data retrieval and caching through React Query.',
     sourceCode: 'https://github.com/faruk-mansuri/jobify',
     liveProject: 'https://jobify-eold.onrender.com/',
+    type: PROJECT_TYPES_VARIABLES.MERN_STACK,
   },
   {
     id: 'project-7',
@@ -78,6 +85,7 @@ export const projects = [
     info: 'I built a Hacker News app where users have access to a search form and interact with the Hacker News API to fetch stories related to their input. Additionally, I implemented server-side pagination to enhance the user experience.',
     sourceCode: 'https://github.com/faruk-mansuri/react-hacker-news-project-4',
     liveProject: 'https://react-hacker-new-project-4.netlify.app/',
+    type: PROJECT_TYPES_VARIABLES.REACTJS,
   },
   {
     id: 'project-8',
@@ -87,6 +95,7 @@ export const projects = [
     info: 'Movies DB, where user can search for movie and api returns movie then user can see those movies and if query does return anything the of course user will see that error',
     sourceCode: 'https://github.com/faruk-mansuri/movieDB',
     liveProject: 'https://react-moviedb-project.netlify.app/',
+    type: PROJECT_TYPES_VARIABLES.REACTJS,
   },
   {
     id: 'project-9',
@@ -96,6 +105,7 @@ export const projects = [
     info: 'E-commerce furniture store where users can log in, register, add items to their cart, toggle themes, view order history, and more. Utilizing the latest tools such as React Query, React Router DOM 6.14, Redux Toolkit, and more. The site offers a fast and efficient product filtering system, along with authentication and authorization functionalities.',
     sourceCode: 'https://github.com/faruk-mansuri/ReactJS-E-Commerce',
     liveProject: 'https://reactjs-e-commerce-app.netlify.app/',
+    type: PROJECT_TYPES_VARIABLES.REACTJS,
   },
   {
     id: 'project-10',
@@ -103,19 +113,21 @@ export const projects = [
     desc: 'GPTGenius: Your AI language companion. Powered by OpenAI, it enhances your conversations, content creation, and more!',
     featuredProject: true,
     url: project10,
-    info: `GPTGenius a full stack nextJS web application that integrates OpenAI's 3.5 GPT model. Clerk for authentication and user management. Implemented features including a chatbot for interactive conversations and dynamic tour generation using openAI
+    info: `"GPTGenius" a full stack nextJS web application that integrates OpenAI's 3.5 GPT model. Clerk for authentication and user management. Implemented features including a chatbot for interactive conversations and dynamic tour generation using openAI
 .`,
     sourceCode: 'https://github.com/faruk-mansuri/GPTGenius',
     liveProject: 'https://gpt-genius-one.vercel.app/',
+    type: PROJECT_TYPES_VARIABLES.NEXTJS,
   },
   {
     id: 'project-11',
     title: 'Promptopia',
     desc: 'Promptopia is an open-source creative prompting tool that allows users to discover, create, and share prompts.',
     url: project11,
-    info: `Introducing Promptopia, my latest Next.js project! 🚀 Promptopia is an open-source creative prompting tool that allows users to discover, create, and share prompts. It includes user authentication with email verification and leverages the latest Next.js features, such as middleware. Check it out and get inspired today!`,
+    info: `"Promptopia" is an open-source creative prompting tool that allows users to discover, create, and share prompts. It includes user authentication with email verification and leverages the latest Next.js features, such as middleware.`,
     sourceCode: 'https://github.com/faruk-mansuri/next-js-promptopia',
     liveProject: 'https://next-js-promptopia.netlify.app/login',
+    type: PROJECT_TYPES_VARIABLES.NEXTJS,
   },
   {
     id: 'project-12',
@@ -126,5 +138,6 @@ export const projects = [
     info: `"Genius" is more than just a platform; it's your ultimate creative companion! 🎨💬 Imagine a space where you can chat with AI, effortlessly create stunning images, convert prompts to music and videos, or can ask AI to generate code for you. `,
     sourceCode: 'https://github.com/faruk-mansuri/genius',
     liveProject: 'https://genius-nu.vercel.app/',
+    type: PROJECT_TYPES_VARIABLES.NEXTJS,
   },
 ];
