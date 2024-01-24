@@ -2,7 +2,6 @@ import { styled } from 'styled-components';
 import { BsCodeSlash, BsServer, BsFileCodeFill } from 'react-icons/bs';
 
 const SingleSkill = ({ title, Icon, languages }) => {
-  console.log(Icon);
   return (
     <Wrapper>
       <span className='service-icon'>

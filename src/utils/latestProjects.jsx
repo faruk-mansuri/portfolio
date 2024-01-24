@@ -10,6 +10,7 @@ import project9 from '../assets/images/project-9.png';
 import project10 from '../assets/images/project-10.png';
 import project11 from '../assets/images/project-11.png';
 import project12 from '../assets/images/project-12.png';
+import project13 from '../assets/images/project-13.png';
 import { PROJECT_TYPES_VARIABLES } from './constant';
 
 export const projects = [
@@ -138,6 +139,17 @@ export const projects = [
     info: `"Genius" is more than just a platform; it's your ultimate creative companion! 🎨💬 Imagine a space where you can chat with AI, effortlessly create stunning images, convert prompts to music and videos, or can ask AI to generate code for you. `,
     sourceCode: 'https://github.com/faruk-mansuri/genius',
     liveProject: 'https://genius-nu.vercel.app/',
+    type: PROJECT_TYPES_VARIABLES.NEXTJS,
+  },
+  {
+    id: 'project-13',
+    title: 'AI Companion',
+    desc: 'AI-Companion is a next-gen platform where you can seamlessly create, edit, and even chat with your own AI companions!.',
+    featuredProject: false,
+    url: project13,
+    info: `I believe in the power of AI to enhance our daily lives. AI-Companion is designed to be your virtual sidekick, offering personalized experiences and meaningful interactions. 🤯 "Imagine having a chat with Albert Einstein or Steve Jobs.`,
+    sourceCode: 'https://github.com/faruk-mansuri/ai-companion',
+    liveProject: 'https://ai-companion-rose-eight.vercel.app/',
     type: PROJECT_TYPES_VARIABLES.NEXTJS,
   },
 ];

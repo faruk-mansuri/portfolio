@@ -183,6 +183,8 @@ const Wrapper = styled.section`
     border-radius: 0.375rem;
     transition: var(--transition);
     letter-spacing: 2px;
+    border: none;
+    font-weight: 600;
   }
   .project-btn:hover {
     background-color: var(--clr-primary-5);
