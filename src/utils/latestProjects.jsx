@@ -11,6 +11,7 @@ import project10 from '../assets/images/project-10.png';
 import project11 from '../assets/images/project-11.png';
 import project12 from '../assets/images/project-12.png';
 import project13 from '../assets/images/project-13.png';
+import project14 from '../assets/images/project-14.png';
 import { PROJECT_TYPES_VARIABLES } from './constant';
 
 export const projects = [
@@ -150,6 +151,17 @@ export const projects = [
     info: `I believe in the power of AI to enhance our daily lives. AI-Companion is designed to be your virtual sidekick, offering personalized experiences and meaningful interactions. 🤯 "Imagine having a chat with Albert Einstein or Steve Jobs.`,
     sourceCode: 'https://github.com/faruk-mansuri/ai-companion',
     liveProject: 'https://ai-companion-rose-eight.vercel.app/',
+    type: PROJECT_TYPES_VARIABLES.NEXTJS,
+  },
+  {
+    id: 'project-14',
+    title: 'Messenger App',
+    desc: 'AI-Companion is a next-gen platform where you can seamlessly create, edit, and even chat with your own AI companions!.',
+    featuredProject: false,
+    url: project14,
+    info: `A "Messenger Clone" project is inspired by the popular social media platform "Messenger" and aims to replicate some of its core features, allowing users create or delete single or groups conversation at your convenience. Stay on top of your conversations with the Seen and Unseen feature and Know when your friends are online or offline.`,
+    sourceCode: 'https://github.com/faruk-mansuri/messenger-clone',
+    liveProject: 'https://messenger-clone-ruby-eight.vercel.app',
     type: PROJECT_TYPES_VARIABLES.NEXTJS,
   },
 ];
