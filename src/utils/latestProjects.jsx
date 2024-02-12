@@ -12,6 +12,7 @@ import project11 from '../assets/images/project-11.png';
 import project12 from '../assets/images/project-12.png';
 import project13 from '../assets/images/project-13.png';
 import project14 from '../assets/images/project-14.png';
+import project15 from '../assets/images/project-15.png';
 import { PROJECT_TYPES_VARIABLES } from './constant';
 
 export const projects = [
@@ -162,6 +163,17 @@ export const projects = [
     info: `A "Messenger Clone" project is inspired by the popular social media platform "Messenger" and aims to replicate some of its core features, allowing users create or delete single or groups conversation at your convenience. Stay on top of your conversations with the Seen and Unseen feature and Know when your friends are online or offline.`,
     sourceCode: 'https://github.com/faruk-mansuri/messenger-clone',
     liveProject: 'https://messenger-clone-ruby-eight.vercel.app',
+    type: PROJECT_TYPES_VARIABLES.NEXTJS,
+  },
+  {
+    id: 'project-15',
+    title: 'Next Auth V-5',
+    desc: 'Next.js app with advanced authentication features including OAuth social login, forgot password functionality, email verification, two-factor authentication, user roles, and more.',
+    featuredProject: false,
+    url: project15,
+    info: `Next.js app with advanced authentication features including OAuth social login, forgot password functionality, email verification, two-factor authentication, user roles, and more. Securely manage user access and preferences with Next-auth v5 (Auth.js) and explore advanced session management and middleware for enhanced security.`,
+    sourceCode: 'https://github.com/faruk-mansuri/next-auth-v5',
+    liveProject: 'https://next-auth-v5-neon.vercel.app',
     type: PROJECT_TYPES_VARIABLES.NEXTJS,
   },
 ];
