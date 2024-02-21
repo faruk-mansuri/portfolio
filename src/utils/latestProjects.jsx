@@ -13,6 +13,7 @@ import project12 from '../assets/images/project-12.png';
 import project13 from '../assets/images/project-13.png';
 import project14 from '../assets/images/project-14.png';
 import project15 from '../assets/images/project-15.png';
+import project16 from '../assets/images/project-16.png';
 import { PROJECT_TYPES_VARIABLES } from './constant';
 
 export const projects = [
@@ -174,6 +175,17 @@ export const projects = [
     info: `Next.js app with advanced authentication features including OAuth social login, forgot password functionality, email verification, two-factor authentication, user roles, and more. Securely manage user access and preferences with Next-auth v5 (Auth.js) and explore advanced session management and middleware for enhanced security.`,
     sourceCode: 'https://github.com/faruk-mansuri/next-auth-v5',
     liveProject: 'https://next-auth-v5-neon.vercel.app',
+    type: PROJECT_TYPES_VARIABLES.NEXTJS,
+  },
+  {
+    id: 'project-16',
+    title: 'Discord Clone',
+    desc: 'Introducing an end-to-end fullstack and real-time discord clone, all with servers, channels, video calls, audio calls, editing and deleting messages as well as member roles.',
+    featuredProject: true,
+    url: project16,
+    info: `"Built with Next.js, my project is an end-to-end Discord clone featuring real-time messaging, multimedia sharing, customizable servers, and member management. With seamless integration of Socket.io for real-time communication and a stunning UI powered by TailwindCSS and shadcn-ui component library, it offers a complete collaboration platform with text, audio, and video channels."`,
+    sourceCode: 'https://github.com/faruk-mansuri/discord-clone',
+    liveProject: 'https://discord-clone-uix5.onrender.com',
     type: PROJECT_TYPES_VARIABLES.NEXTJS,
   },
 ];
