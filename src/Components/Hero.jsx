@@ -46,7 +46,8 @@ const Wrapper = styled.section`
     background: var(--clr-primary-10);
   }
   .hero-center {
-    height: calc(100vh - 5rem);
+    /* height: calc(100vh - 5rem); */
+    min-height: calc(100svh - 5rem);
     display: grid;
     place-items: center;
   }
