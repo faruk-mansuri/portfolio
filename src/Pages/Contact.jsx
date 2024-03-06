@@ -28,7 +28,8 @@ const Contact = () => {
 
 const Wrapper = styled.section`
   background: var(--clr-primary-10);
-  min-height: calc(100vh - 5rem - 171px);
+  /* min-height: calc(100vh - 5rem - 171px); */
+  min-height: calc(100svh - 5rem - 171px);
 
   p {
     width: 90vw;
