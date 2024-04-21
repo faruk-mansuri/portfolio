@@ -172,11 +172,19 @@ const Wrapper = styled.section`
     object-fit: cover;
   }
   .btn-container {
+    padding: 2rem;
     margin-top: 2rem;
+    background: var(--clr-grey-10);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+    flex-direction: column;
+    gap: 0.375rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
   }
   .project-btn {
     padding: 0.375rem 0.75rem;
