@@ -10,7 +10,9 @@ const Hero = () => {
           <article className='hero-info'>
             <div className='underline'></div>
             <h1>i'm faruk</h1>
-            <h4>NextJS, React, React Native and full stack developer</h4>
+            <h4>
+              Typescript, NextJS, React, React Native and full stack developer
+            </h4>
 
             <Link to='contact' className='btn hero-btn'>
               hire me

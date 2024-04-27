@@ -20,7 +20,9 @@ const Navbar = ({ toggleSidebar }) => {
           <div className={`nav-center`}>
             {/* nav header */}
             <div className='nav-header'>
-              <img className='nav-logo' src={logo} alt='logo' />
+              <NavLink to='/'>
+                <img className='nav-logo' src={logo} alt='logo' />
+              </NavLink>
               <button className='nav-btn' onClick={toggleSidebar}>
                 <FaBars className='toggle-btn' />
               </button>
@@ -91,9 +93,15 @@ const Wrapper = styled.nav`
       font-weight: bold;
       letter-spacing: var(--spacing);
       transition: var(--transition);
+      .active {
+        color: var(--clr-primary-5);
+      }
     }
     .nav-links a:hover {
       color: var(--clr-primary-5);
+    }
+    .nav-links a {
+      color: var(--clr-grey-7);
     }
   }
 

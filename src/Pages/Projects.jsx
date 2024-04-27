@@ -25,7 +25,6 @@ const Projects = () => {
           <div className='underline'></div>
         </div>
       </header>
-
       <div className='btn-container'>
         {PROJECT_TYPES.map((projectType) => {
           return (
@@ -44,7 +43,12 @@ const Projects = () => {
         })}
       </div>
 
-      <div className='section'>
+      <section className='section'>
+        <div className='small-header section-center'>
+          <p>{type}</p>
+          <div className='underline'></div>
+          <p>{projects.length}</p>
+        </div>
         <div className='section-center projects-center'>
           {projects.map((project) => {
             const {
@@ -97,7 +101,7 @@ const Projects = () => {
             );
           })}
         </div>
-      </div>
+      </section>
     </Wrapper>
   );
 };
@@ -202,6 +206,20 @@ const Wrapper = styled.section`
   }
   .project-btn-inactive {
     background-color: var(--clr-primary-7);
+  }
+  .small-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+    margin-bottom: 2rem;
+    .underline {
+      margin: 0;
+      width: 100%;
+    }
+    p {
+      margin: 0;
+    }
   }
 `;
 export default Projects;

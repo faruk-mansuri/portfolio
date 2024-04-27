@@ -110,10 +110,7 @@ export const skills = [
         Icon: BiLogoReact,
         title: 'React Native',
       },
-      {
-        Icon: SiExpo,
-        title: 'Expo',
-      },
+
       {
         Icon: SiSocketdotio,
         title: 'ScoketIO',
