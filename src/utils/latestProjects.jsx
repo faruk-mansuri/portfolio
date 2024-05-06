@@ -185,7 +185,8 @@ export const projects = [
     url: project16,
     info: `"Built with Next.js, my project is an end-to-end Discord clone featuring real-time messaging, multimedia sharing, customizable servers, and member management. With seamless integration of Socket.io for real-time communication and a stunning UI powered by TailwindCSS and shadcn-ui component library, it offers a complete collaboration platform with text, audio, and video channels."`,
     sourceCode: 'https://github.com/faruk-mansuri/discord-clone',
-    liveProject: 'https://discord-clone-uix5.onrender.com',
+    liveProject:
+      'https://discord-clone-uix5.onrender.com/invite/8611f06b-7604-4026-99a8-82b8df133b8d',
     type: PROJECT_TYPES_VARIABLES.NEXTJS,
   },
 ];
