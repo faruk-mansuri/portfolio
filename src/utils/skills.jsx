@@ -24,8 +24,8 @@ import {
   SiSocketdotio,
   SiChakraui,
   SiPrisma,
-  SiShadcnui,
 } from 'react-icons/si';
+import { SiShadcnui } from 'react-icons/si';
 
 export const skills = [
   {
