@@ -24,6 +24,7 @@ import {
   SiSocketdotio,
   SiChakraui,
   SiPrisma,
+  SiShadcnui,
 } from 'react-icons/si';
 
 export const skills = [
@@ -62,6 +63,10 @@ export const skills = [
       {
         Icon: BiLogoTailwindCss,
         title: 'Tailwind css',
+      },
+      {
+        Icon: SiShadcnui,
+        title: 'Shadcnui',
       },
       {
         Icon: SiChakraui,
