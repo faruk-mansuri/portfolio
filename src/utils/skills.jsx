@@ -4,6 +4,7 @@ import {
   BiLogoRedux,
   BiLogoNodejs,
   BiLogoTailwindCss,
+  BiLogoTypescript,
 } from 'react-icons/bi';
 import { AiOutlineHtml5, AiFillSetting, AiFillGithub } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
@@ -22,6 +23,7 @@ import {
   SiExpo,
   SiSocketdotio,
   SiChakraui,
+  SiPrisma,
 } from 'react-icons/si';
 
 export const skills = [
@@ -40,6 +42,10 @@ export const skills = [
       {
         Icon: BiLogoJavascript,
         title: 'JavaScript',
+      },
+      {
+        Icon: BiLogoTypescript,
+        title: 'TypeScript',
       },
       {
         Icon: BiLogoReact,
@@ -86,6 +92,10 @@ export const skills = [
       {
         Icon: SiMysql,
         title: 'Mysql',
+      },
+      {
+        Icon: SiPrisma,
+        title: 'Prisma',
       },
       {
         Icon: SiJsonwebtokens,
